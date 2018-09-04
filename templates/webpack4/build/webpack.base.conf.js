@@ -1,7 +1,9 @@
 const path = require("path");
 const config = require('./config');
 const utils = require('./utils');
+
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 let devMode = utils.isDev();
 
@@ -28,5 +30,8 @@ module.exports = {
                 loader: 'url-loader'
             }
         ]
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin()
+    ]
 };
