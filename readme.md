@@ -12,6 +12,6 @@ Run command:
 ```
 wp4-cli init
 ```
-Then the cli will generate files in the current directory,including **webpack.config.js**、**index.js**etc.
+Then the cli will generate files in the current directory,including **webpack.config.js**、**index.js** etc.
 
-
+Now you could start your development work.

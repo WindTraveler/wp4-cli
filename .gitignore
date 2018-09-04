@@ -64,3 +64,4 @@ typings/
 .idea/
 chore/
 package-lock.json
+./**/node_modules/
