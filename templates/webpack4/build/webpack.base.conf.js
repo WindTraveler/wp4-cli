@@ -1,4 +1,5 @@
 const path = require("path");
+const config = require('./config');
 
 module.exports = {
     mode: "development",
@@ -6,7 +7,7 @@ module.exports = {
         index: './src/index.js'
     },
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: config.build.dist,
         filename: "[name].bundle.js"
     },
     module: {
