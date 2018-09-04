@@ -1,8 +1,12 @@
 const path = require("path");
 const config = require('./config');
+const utils = require('./utils');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+let devMode = utils.isDev();
 
 module.exports = {
-    mode: "development",
+    mode: devMode ? 'development' : 'production',
     entry: {
         index: './src/index.js'
     },
@@ -15,7 +19,7 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [
-                    'style-loader',
+                    devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
                     'css-loader'
                 ]
             },
