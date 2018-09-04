@@ -6,9 +6,3 @@
 html, body {
     height: 100%;
 }
-
-div {
-    width: 100px;
-    height: 100px;
-    background: url(../img/zoro.jpeg) no-repeat;
-}
