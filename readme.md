@@ -14,4 +14,15 @@ wp4-cli init
 ```
 Then the cli will generate files in the current directory,including **webpack.config.js**、**index.js** etc.
 
-Now you could start your development work.
+## Develop
+Run command:
+```
+npm run start
+```
+Open your broswer and visit `http://localhost:8080/`
+
+## Build
+Run command:
+```
+npm run build
+```
