@@ -2,6 +2,8 @@
 
 A cli-tool based on webpack4.
 
+If you like it, star the project on [github](https://github.com/WindTraveler/wp4-cli).
+
 ## Installation
 Using npm:
 ```
@@ -21,8 +23,18 @@ npm run start
 ```
 Open your broswer and visit `http://localhost:8080/`
 
+Then you could try to modify the **index.html** or **./src/index.js**
+
+Save the changes and your broswer will be freshed automatically.
+
+Enjoy your development!
+
 ## Build
 Run command:
 ```
 npm run build
 ```
+The output files will be in the **dist** directory by default.
+
+## Other
+You could change the default config according to your needs.
