@@ -1,6 +1,6 @@
 {
   "name": "wp4-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "一个基于webpack4的前端快速开发脚手架",
   "bin": {
     "wp4-cli": "./bin/wp4-cli.js"
