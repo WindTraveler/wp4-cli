@@ -16,6 +16,11 @@ wp4-cli init
 ```
 Then the cli will generate files in the current directory,including **webpack.config.js**、**index.js** etc.
 
+After that don't forget to run the commond:
+```
+npm install
+```
+
 ## Develop
 Run command:
 ```
