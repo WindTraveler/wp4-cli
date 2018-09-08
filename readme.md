@@ -26,11 +26,9 @@ Run command:
 ```
 npm run start
 ```
-Open your broswer and visit `http://localhost:8080/`
+Open your broswer and visit `http://localhost:8080/`.
 
-Then you could try to modify the **index.html** or **./src/index.js**
-
-Save the changes and your broswer will be freshed automatically.
+Then you could try to modify the **index.html** or **./src/index.js**.Save the changes and your broswer will be freshed automatically.
 
 Enjoy your development!
 
